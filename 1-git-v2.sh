@@ -28,19 +28,19 @@ cd ..
 git add --all .
 
 # Give a comment to the commit if you want
-#echo "####################################"
-#echo "Write your commit comment!"
-#echo "####################################"
+echo "####################################"
+echo "Write your commit comment!"
+echo "####################################"
 
-input="update"
+read CHOICE
 
 # Committing to the local repository with a message containing the time details and commit text
 
-git commit -m "$input"
+git commit -m "$CHOICE"
 
 # Push the local files to github
 
-git push -u origin master
+git push -u origin main
 
 
 echo "################################################################"
