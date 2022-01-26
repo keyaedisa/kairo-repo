@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rm alci_repo*
+rm kairo_repo*
 
 echo "repo-add"
 #repo-add -s -n -R carli_repo.db.tar.gz *.pkg.tar.zst
